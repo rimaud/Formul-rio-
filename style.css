@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:antiquewhite;
+}
+
+h1 {
+    color:brown;
+    text-align: center;
+}
+h2 {
+    color:black;
+    text-align: center;
+    -ms-text-size-adjust: 50%;
+    margin: 2pc;
+
+}
+#título {
+    color:azure;
+}
+
+.form {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: center;
+}
+
+.form > form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border: solid 2px;
+    border-color:black;
+    margin: 1pc;
+    padding: 1.5pc;
+    background-color:burlywood;
+}
+
+input {
+    background-color: beige;
+}
+
+button :hover {
+    color: rgb(36, 146, 243);
+    background-color:black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    .form { 
+        flex-direction: column;
+
+    }
+    
+}
